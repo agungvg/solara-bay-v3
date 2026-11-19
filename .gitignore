@@ -1,5 +1,33 @@
+# Solara Bay — files that never belong in the entry.
+# The game runs offline from static files, so anything a tool
+# generates while building, testing or screenshotting stays local.
+
+# Dependencies
 node_modules/
+
+# Build output (capture720.mjs also drops its raw PNGs into out/raw/,
+# which out/ already covers)
 out/
 dist/
+
+# Editor and IDE settings
+.idea/
+.vscode/
+
+# OS junk
 .DS_Store
+Thumbs.db
+
+# Logs, temp files and editor backups
 *.log
+*.tmp
+*~
+*.swp
+
+# Python — enhance_shots.py and anything it imports
+__pycache__/
+*.py[cod]
+
+# Local secrets — the game needs none, but never commit one by accident
+.env
+.env.local
