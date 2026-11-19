@@ -22,7 +22,7 @@ const outDir = resolve(process.env.MAKEFUN_OUTPUT_DIR ?? '/output');
 // same caps the gate enforces.
 const ceilings = {
   textMaxBytes: 4 * 1024 * 1024,
-  shots: { max: 4, maxBytes: 262144 },
+  shots: { max: 4, max_bytes: 262144 },
   gameMaxFiles: 993,
   gameMaxBytes: 48 * 1024 * 1024,
   gamePathMaxBytes: 1000,
