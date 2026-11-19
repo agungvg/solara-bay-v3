@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- Solara Bay — the game page. Loads the Three.js import map, the base
+     stylesheet, and the game bootstrap (game/src/main.js). The canvas is
+     mounted into #game-container; #sb-loading is removed once the first
+     frame renders. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Solara Bay — Open-World Crime</title>
+<meta name="description" content="Solara Bay — a GTA-style open-world crime game. Sunny coastal city, golden hour, 6 missions.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "./vendor/three.module.min.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="game-container"></div>
+<div id="sb-loading">Loading Solara Bay…</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
