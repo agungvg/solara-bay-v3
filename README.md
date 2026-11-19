@@ -1,7 +1,11 @@
 # Solara Bay
 
+[![make.fun · gta6-01](https://make.fun/badge/gta6-01.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![rank](https://make.fun/badge/gta6-01/agungvg/solara-bay-v3/rank.svg)](https://make.fun/bounty/gta6-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+[![reward](https://make.fun/badge/gta6-01/agungvg/solara-bay-v3/reward.svg)](https://make.fun/bounty/gta6-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-01)
+
 A GTA-style open-world crime game, written from scratch for the make.fun
-gta6-01 competition. It runs offline in a desktop browser from static
+[Make GTA 6](https://make.fun/bounty/gta6-01) competition. It runs offline in a desktop browser from static
 files — keyboard and mouse, every asset original, zero network requests.
 
 ## The game
