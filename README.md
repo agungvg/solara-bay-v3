@@ -7,13 +7,16 @@
 A GTA-style open-world crime game, written from scratch for the make.fun
 [Make GTA 6](https://make.fun/bounty/gta6-01) competition. It runs offline in a desktop browser from static
 files — keyboard and mouse, every asset original, zero network requests.
+You arrive in Solara Bay at golden hour and get pulled into a six-mission
+fight with the Vipers gang: a first stolen car, a beach meeting, a police
+chase, a package drop, a hideout raid, and a final sunset run down the
+coast. The whole arc is playable end to end, and progress saves
+automatically.
 
 ## The game
 
-Solara Bay is a sunny coastal city at golden hour. You arrive as a
-newcomer and get pulled between the streets and the Vipers gang. Walk the
-sidewalks or steal a car, outrun the police, and play through a 6-mission
-story arc.
+Walk the sidewalks or steal a car, outrun the police, and play through
+the 6-mission story arc — $2,400 in total mission payouts.
 
 - **Open world:** a street grid with buildings, a beach and ocean, docks
   and a pier, a central plaza, a park, palms and streetlights.
@@ -28,15 +31,45 @@ story arc.
 - **Save:** progress saves to localStorage; continue where you left off.
 - **Sound:** synthesized WebAudio engine, siren, gunshots and pickups.
 
-## Controls
+## How to play
 
-- **W / A / S / D** — move (on foot) / drive (in a car)
-- **Shift** — run
-- **E** — enter / exit a car
-- **F** — shoot (on foot)
+Press **PLAY** on the start screen, then press **M** to start the story.
+Each mission shows its objective on the HUD; finishing one pays out and
+the next unlocks with **M**. Your progress saves automatically, so you
+can close the tab and continue where you left off.
+
+### Controls
+
+- **W / A / S / D** — move on foot, drive in a car
+- **Shift** — run (on foot)
+- **E** — enter / exit the nearest parked car
+- **F** — shoot the pistol (on foot only)
 - **M** — start the next mission
 - **Esc** — pause
-- **Mouse** — look around (drag)
+- **Mouse** — drag to look around
+
+### The six missions
+
+| # | Mission | Objective | Reward |
+|---|---------|-----------|--------|
+| 1 | First Wheels | Steal the coupe by the marina and drive to the pier | $150 |
+| 2 | Beach Meeting | Walk to the beach and meet your contact while two Vipers watch | $200 |
+| 3 | Dockside Heat | Shake a 2-star police pursuit and reach the plaza | $250 |
+| 4 | The Drop | Carry the package to the docks past three Vipers | $300 |
+| 5 | Viper Nest | Clear the four-man hideout by the pier | $500 |
+| 6 | Solara Sunset | Outrun a 4-star pursuit down the coast to the beach finish line | $1,000 |
+
+### Tips
+
+- Steal a car early — it is the fastest way across the city, and the
+  first mission teaches you how.
+- Wanted stars run 0–5: the higher the heat, the harder the pursuit,
+  with roadblocks at high levels. Finishing a chase mission clears them.
+- On foot you can shoot (**F**); in a car you cannot, so pick your
+  fights before you get in.
+- Hold **Shift** to run — it matters when Vipers are closing in on foot.
+- The yellow diamond on the minimap marks your current objective;
+  follow it.
 
 ## Play it
 
